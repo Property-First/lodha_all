@@ -7,11 +7,11 @@ $phone_number = $_POST['telephone'] ?? '';
 $ip = getUserIP();
 
 // Email recipients
-$to = "crm@propertyfirst.co.in,lmt@property-first.com, che@azurechennai.officialswebsite.info";
-$subject = "Total Environment - New CRM Lead";
+$to = "crm@propertyfirst.co.in,lmt@property-first.com";
+$subject = "Lodha Projects - New CRM Lead";
 
 // Fixed project name
-$project = "Total Environment - Ads";
+$project = "Lodha Projects - Ads";
 
 $txt = "IP Address: " . $ip . "\r\n"
      . "Project: " . $project . "\r\n"
